@@ -1,0 +1,16 @@
+# Obsidian specific - Ignora archivos de estado local y caché
+# pero permite versionar configuraciones importantes, temas, snippets y plugins
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian/cache/
+.obsidian/graph.json
+.obsidian/publish.json
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales y de log comunes
+*.log
+*.tmp
+*.swp
